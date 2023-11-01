@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/profile-react/static/css/main.fa236d10.css",
+    "main.js": "/profile-react/static/js/main.7da61b54.js",
+    "static/media/avatar2.png": "/profile-react/static/media/avatar2.ff4aad8c2943446051c4.png",
+    "static/media/work1.png": "/profile-react/static/media/work1.0c1869129598a43a7bd4.png",
+    "static/media/work2.png": "/profile-react/static/media/work2.a1805241f169fa06cf46.png",
+    "static/media/avatar1.png": "/profile-react/static/media/avatar1.2c39581b599245f3fbd7.png",
+    "static/media/work3.jpg": "/profile-react/static/media/work3.73e726c453710bdbbf8d.jpg",
+    "static/media/work4.jpg": "/profile-react/static/media/work4.390e5c59c5ef1c017eb0.jpg",
+    "static/media/work6.jpg": "/profile-react/static/media/work6.1dd4a9936a374d96421d.jpg",
+    "static/media/work5.jpg": "/profile-react/static/media/work5.eae67e5b9ee952c6097b.jpg",
+    "static/media/dots-bg.svg": "/profile-react/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/profile-react/index.html",
+    "main.fa236d10.css.map": "/profile-react/static/css/main.fa236d10.css.map",
+    "main.7da61b54.js.map": "/profile-react/static/js/main.7da61b54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa236d10.css",
+    "static/js/main.7da61b54.js"
+  ]
+}
