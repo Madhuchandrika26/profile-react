@@ -1,0 +1,142 @@
+.about_container {
+  grid-template-columns: 2fr 9fr;
+  column-gap: 1.877rem;
+}
+.about_data {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  position: relative;
+}
+.about_data::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid var(--container-color);
+  position: absolute;
+  left: -0.93rem;
+  top: 20%;
+}
+
+.about_description {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+.about_skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 1rem;
+
+}
+.skills_titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  
+}
+.skills_name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  
+}
+
+.skills_number{
+    line-height: 1.2;
+}
+.skills_bar,
+.skills_percentage{
+    height: 7px;
+    border-radius: 0.25rem;
+}
+.skills_bar{
+    background-color: #f1f1ff;
+   
+    
+}
+
+.skills_percentage{
+  
+  display: block;
+  transition: all 0.3s;
+
+}
+
+.html{
+    width: 100%;
+    background-color: #db7093;
+}
+.css{
+    width: 90%;
+    background-color: rgb(255,76,96);
+}
+
+ .js{
+    width: 80%;
+    background-color:#7fff00;
+ }
+ .php{
+    width:70%;
+    background-color: #ff00ff;
+ }
+ .java{
+    width: 70%;
+    background-color:#000080 ;
+ }
+ .sql{
+    width: 80%;
+    background-color: aqua;
+ }
+ .react{
+    width: 90%;
+    background-color: #808000;
+ }
+.node{
+    width: 70%;
+    background-color:#9932cc ;
+}
+.spss{
+    width: 60%;
+    background-color: #20b2aa;
+}
+.r{
+    width: 60%;
+    background-color: #ffa500;
+}
+.mongo{
+    width: 80%;
+    background-color: #5f9ea0;
+}
+.iot{
+    width: 90%;
+    background-color: #90ee90;
+}
+.about_boxes{
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 1.875rem;
+  margin-top: 4.35rem;
+}
+.about_box{
+  display: flex;
+  column-gap: 1.5rem;
+}
+.about_icon{
+  font-size: var(--h1-font-size);
+  color: #dedeea;
+}
+
+.about_title{
+  font-size: 1.875rem;
+  transition: all 0.3s ease-in-out;
+
+}
+.about_title:hover{
+  transform: translateY(-20px);
+}
+
